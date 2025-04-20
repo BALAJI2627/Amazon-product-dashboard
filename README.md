@@ -17,15 +17,15 @@
 
 ### 🧾 Overview Page
 
-![Overview](./Assets/Overview.png)
+![Overview](./Overview.png)
 
-### 📦 Product Summary
+### 📦 Product Page
 
-![Product](./Assets/Product.png)
+![Product](./Product.png)
 
-### 🔍 Product View by Month
+### 🔍 Product View Page
 
-![Product View](./Assets/Product_view.png)
+![Product View](./Product_view.png)
 
 ---
 
