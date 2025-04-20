@@ -1,33 +1,34 @@
 # 🛒 Amazon Sales Dashboard
 
-An interactive Power BI dashboard delivering comprehensive analysis of Amazon product sales. This project empowers stakeholders to track performance, uncover trends, and make data-driven decisions through dynamic visuals and KPIs.
+This Power BI dashboard delivers a comprehensive analysis of Amazon product sales, helping stakeholders track performance, spot trends, and make data-driven decisions. It showcases advanced Power BI features including interactive filtering, dynamic KPIs, and detailed data modeling.
 
 ---
 
 ## 📊 **Key Insights**
 
-1. **Sales Overview** – Total units sold by city and state.
-2. **Product Performance** – Top-selling products and return analysis.
-3. **Time-Based Trends** – Monthly and daily sales evolution.
-4. **Category Comparison** – Performance across product categories.
-5. **Geographic Analysis** – Distribution of sales by region.
+1. **Sales Overview** – Summary of total units sold by city and state.
+2. **Product Performance** – Top-performing products and their return rates.
+3. **Time-Based Analysis** – Monthly trends to track performance over time.
+4. **Category Comparison** – Insights on different product categories.
+5. **Custom Visuals** – Interactive elements for drilldowns and filtering.
 
 ---
 
 ## 🛠️ **Technical Highlights**
 
 ✅ **Data Modeling:**  
-   - Star schema with fact and dimension tables.  
-   - Use of filter tables for dynamic selection between sales amount and units.  
+   - Star schema with fact and dimension tables  
+   - Relationship establishment between sales, products, and regions  
+   - Use of filter tables for dynamic sales and unit selection
 
 ✅ **DAX Measures:**  
-   - Conditional logic for switching between sales and units based on user selection.  
-   - Overall sales calculation using `CALCULATE` and `ALL` functions.  
-   - Dynamic seller count measure filtering by delivered status.  
+   - Conditional logic for sales and units based on user selection  
+   - Calculation of overall sales using `CALCULATE` and `ALL` functions  
+   - Dynamic seller count with filtering based on status (e.g., "Delivered")
 
 ✅ **Interactive Visuals:**  
-   - Slicers and filters for dynamic data exploration.  
-   - Drill-through functionality and KPI cards for real-time insights.  
+   - Slicers and filters for interactive selection of data (e.g., sales vs. units)  
+   - Drill-through functionality and dynamic KPIs
 
 ---
 
@@ -54,21 +55,25 @@ An interactive Power BI dashboard delivering comprehensive analysis of Amazon pr
 
 ## 🚀 **How to Run the Project**
 
-1. Clone or download this repository.  
-2. Open the `.pbix` file in [Power BI Desktop](https://powerbi.microsoft.com/desktop).  
-3. If prompted, re-map the data source to the `Data/amazon_sales_data.csv` file.  
-4. Interact with slicers and visuals to explore insights.
+1. Clone or download this repository.
+2. Open the `.pbix` file in [Power BI Desktop](https://powerbi.microsoft.com/desktop).
+3. The report uses two sheets for data:  
+   - **Amazon Sale Report - YT**
+   - **amazon-fashion - YT**
+4. If prompted, re-map the data source to the local CSV files in the `Data/` folder.
+5. Interact with slicers and visuals to explore insights.
 
 ---
 
 ## 📚 **Additional Notes**
 
-- Demonstrates Power BI dashboarding, DAX, data modeling, and interactive reporting skills.  
-- Ideal for eCommerce analytics, product performance analysis, and business intelligence case studies.
+- This project demonstrates skills in Power BI dashboarding, DAX, data modeling, and storytelling.
+- Useful for eCommerce analytics, product sales performance, and business intelligence case studies.
 
 ---
 
-## 📄 License
+## 📄 **License**
 
-This project is available under the [MIT License](./LICENSE).
+This project is open-source and available under the [MIT License](./LICENSE).
 
+---
