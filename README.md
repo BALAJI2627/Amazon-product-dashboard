@@ -35,15 +35,15 @@ An interactive Power BI dashboard delivering comprehensive analysis of Amazon pr
 
 ### 🧾 Overview Page
 
-![Overview](./Overview.png)
+![Overview](./Assets/Overview.png)
 
 ### 📦 Product Page
 
-![Product](./Product.png)
+![Product](./Assets/Product.png)
 
 ### 🔍 Product View Page
 
-![Product View](./Product_view.png)
+![Product View](./Assets/Product_view.png)
 
 ---
 
