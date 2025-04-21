@@ -52,7 +52,7 @@ This Power BI dashboard delivers a comprehensive analysis of Amazon product sale
 
 Get a feel for the interactivity and visuals in this short demo:
 
-![Dashboard Demo](./Images/dashboard-demo.gif)
+![Dashboard Demo](./Images/Amazon.gif)
 
 ---
 
